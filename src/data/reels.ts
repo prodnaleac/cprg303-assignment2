@@ -6,7 +6,7 @@ export const featuredReel: Post = {
   id: "r1",
   user: users[0],
   image: "https://picsum.photos/seed/reel1/800/1400",
-  caption: "",
+  caption: "got foggy on a hike",
   likes: 8420,
   comments: 350,
   reposts: 726,
