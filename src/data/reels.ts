@@ -5,7 +5,7 @@ import { users } from "./users";
 export const featuredReel: Post = {
   id: "r1",
   user: users[0],
-  image: "",
+  image: "https://picsum.photos/seed/reel1/800/1400",
   caption: "",
   likes: 8420,
   comments: 350,
