@@ -39,9 +39,9 @@ export const comments: Comment[] = [
     id: "c5",
     postId: "p2",
     user: users[2],
-    text: "Sickkk!!!",
+    text: "Should've posted on the photography account!!!",
     timeAgo: "45m",
-    likes: 3,
+    likes: 35,
   },
   {
     id: "c6",

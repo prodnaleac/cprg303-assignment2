@@ -17,7 +17,7 @@ export const posts: Post[] = [
     image: "https://picsum.photos/seed/post2/800/1000",
     caption: "abandoned train track",
     likes: 892,
-    comments: 14,
+    comments: 2,
     reposts: 3,
   },
   {
@@ -26,7 +26,7 @@ export const posts: Post[] = [
     image: "https://picsum.photos/seed/post3/800/1000",
     caption: "beautiful sights",
     likes: 5310,
-    comments: 87,
+    comments: 1,
     reposts: 41,
   },
   {
@@ -35,7 +35,7 @@ export const posts: Post[] = [
     image: "https://picsum.photos/seed/post4/800/1000",
     caption: "I could get use to this!",
     likes: 213,
-    comments: 6,
+    comments: 0,
     reposts: 0,
   },
 ];
