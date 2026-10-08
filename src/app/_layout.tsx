@@ -6,7 +6,7 @@ export default function RootLayout() {
     <>
       <Stack screenOptions={{headerShown: false}}>
         <Stack.Screen name="(tabs)" />
-        <Stack.Screen name="comments/[postId].tsx" options={{presentation: "modal"}}/>
+        <Stack.Screen name="comments/[postId]" options={{presentation: "modal"}}/>
         <Stack.Screen name="search-input" options={{animation: "fade"}}/>
       </Stack>
       <StatusBar style="light"/>
