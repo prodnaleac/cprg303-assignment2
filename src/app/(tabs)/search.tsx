@@ -12,25 +12,26 @@ const FILTERS = ["For you", "Personal growth", "Hockey", "Photography"];
 export default function SearchScreen() {
   return (
     <SafeAreaView style={styles.container} edges={["top"]}>
-      {/* Tapping the search bar opens the search screen */}
+      {/* tapping the search bar opens the search screen */}
       <View style={styles.searchRow}>
         <SearchBar onPress={() => router.push("/search-input")} />
         <Ionicons name="bookmark-outline" size={26} color={colors.text} />
       </View>
 
       {/* filter chips you can scroll sideways */}
-      <ScrollView
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        style={styles.chipScroll}
-        contentContainerStyle={styles.chips}
-      >
-        {FILTERS.map((filter) => (
-          <View key={filter} style={styles.chip}>
-            <Text style={styles.chipText}>{filter}</Text>
-          </View>
-        ))}
-      </ScrollView>
+      <View style={styles.chipRow}>
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          contentContainerStyle={styles.chips}
+        >
+          {FILTERS.map((filter) => (
+            <View key={filter} style={styles.chip}>
+              <Text style={styles.chipText}>{filter}</Text>
+            </View>
+          ))}
+        </ScrollView>
+      </View>
 
       {/* 3 column grid */}
       <FlatList
@@ -51,8 +52,12 @@ const styles = StyleSheet.create({
     gap: 14,
     padding: 14,
   },
-  chipScroll: { flexGrow: 0 },
-  chips: { paddingHorizontal: 14, paddingBottom: 10, gap: 8 },
+  chipRow: { height: 52 },
+  chips: {
+    paddingHorizontal: 14,
+    gap: 8,
+    alignItems: "center",
+  },
   chip: {
     borderWidth: 1,
     borderColor: colors.border,
@@ -60,5 +65,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 8,
   },
-  chipText: { color: colors.text, fontWeight: "600", fontSize: 14 },
+  chipText: {
+    color: colors.text,
+    fontWeight: "600",
+    fontSize: 14,
+    lineHeight: 20,
+  },
 });

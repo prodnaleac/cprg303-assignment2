@@ -13,5 +13,5 @@ export const exploreItems: GridItem[] = [
   { id: "e9", image: "https://picsum.photos/seed/e9/400/533", views: "2.6M" },
   { id: "e10", image: "https://picsum.photos/seed/e10/400/533" },
   { id: "e11", image: "https://picsum.photos/seed/e11/400/533", kind: "carousel" },
-  { id: "e12", image: "https://picsum.photos/seed/e12/400/533", views: "54K" },
+  { id: "e12", image: "https://picsum.photos/seed/ocean/400/533", views: "54K" },
 ];
