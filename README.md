@@ -26,7 +26,7 @@ A mobile app made with Expo and TypeScript that recreates the layout and navigat
 - Every component uses a TypeScript `type` for its props.
 - Shared types are in `src/types`, mock data is in `src/data`, and colors are in `src/constants/colors.ts`.
 
-## Reference Screenshots
+## Reference Screenshots - in screenshots folder
 
 <img src="screenshots/home.png" width="200"/> <img src="screenshots/reels.png" width="200"/> <img src="screenshots/search.png" width="200"/> <img src="screenshots/profile.png" width="200"/> <img src="screenshots/comments.png" width="200"/>
 
