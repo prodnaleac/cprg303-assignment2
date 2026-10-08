@@ -1,4 +1,5 @@
 - The layout and navigation are based on instagram (home, reels, explore, profile.)
+- Stack pages are my search bar on the explore page and the comments on home page.
 - Pictures come from Picsum (https://picsum.photos), which uses free photos from Unsplash.
 - Icons are from Ionicons, from @expo/vector-icons.
 - All the usernames, captions, and comments are made up.
