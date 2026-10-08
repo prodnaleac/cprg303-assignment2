@@ -6,7 +6,7 @@ type AvatarProps = {
   size?: number;
 };
 
-// profile picture, shows a grey circle if there's no image
+// round profile picture, shows a grey circle if there's no image
 export default function Avatar({ uri, size = 32 }: AvatarProps) {
   const dimensions = { width: size, height: size, borderRadius: size / 2 };
 
